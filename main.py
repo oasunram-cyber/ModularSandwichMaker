@@ -2,8 +2,7 @@ import data
 from sandwich_maker import SandwichMaker
 from cashier import Cashier
 
-# Create instances
-resources = data.resources.copy()  # copy so original data is preserved
+resources = data.resources.copy()
 recipes = data.recipes
 sandwich_maker_instance = SandwichMaker(resources)
 cashier_instance = Cashier()
